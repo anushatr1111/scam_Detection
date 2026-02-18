@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML Models & Data
+ml/model/
+ml/runs/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# HuggingFace cache
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads
+uploads/
+temp_*.png
+
+# Jupyter
+.ipynb_checkpoints
+
+# Render
+.render
+# models
+ml/model/
+ml/data/
+
+# uploads
+temp_*.png
+
+# database
+*.db
+*.sqlite3
+
+# python cache
+__pycache__/
+*.pyc
+
+# env
+.env
+venv/

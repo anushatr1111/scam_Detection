@@ -1,0 +1,194 @@
+Folder PATH listing
+Volume serial number is E6FB-3D37
+C:.
+¦   .env
+¦   .gitignore
+¦   Procfile
+¦   requirements.txt
+¦   scamsense.db
+¦   start.sh
+¦   structure.txt
+¦   temp_110dfb78331c462a891d2e58ddac1428.png
+¦   temp_b2153dd74f7c4a9dbf575b2ceb1563da.png
+¦   temp_ea7955a0c2a046c8932bebe9574051af.png
+¦   temp_fefa44821dbe45559cb09df34b103e6c.png
+¦   
++---app
+¦   ¦   main.py
+¦   ¦   
+¦   +---api
+¦   ¦   ¦   router.py
+¦   ¦   ¦   
+¦   ¦   +---endpoints
+¦   ¦   ¦   ¦   auth.py
+¦   ¦   ¦   ¦   debug.py
+¦   ¦   ¦   ¦   health.py
+¦   ¦   ¦   ¦   image_scan.py
+¦   ¦   ¦   ¦   monitor.py
+¦   ¦   ¦   ¦   scan.py
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦           auth.cpython-311.pyc
+¦   ¦   ¦           debug.cpython-311.pyc
+¦   ¦   ¦           health.cpython-311.pyc
+¦   ¦   ¦           image_scan.cpython-311.pyc
+¦   ¦   ¦           monitor.cpython-311.pyc
+¦   ¦   ¦           scan.cpython-311.pyc
+¦   ¦   ¦           
+¦   ¦   +---__pycache__
+¦   ¦           router.cpython-311.pyc
+¦   ¦           
+¦   +---core
+¦   ¦   ¦   config.py
+¦   ¦   ¦   dependencies.py
+¦   ¦   ¦   jwt_handler.py
+¦   ¦   ¦   security.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           config.cpython-311.pyc
+¦   ¦           dependencies.cpython-311.pyc
+¦   ¦           jwt_handler.cpython-311.pyc
+¦   ¦           security.cpython-311.pyc
+¦   ¦           
+¦   +---db
+¦   ¦   ¦   database.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           database.cpython-311.pyc
+¦   ¦           
+¦   +---middleware
+¦   ¦   ¦   logging_middleware.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           logging_middleware.cpython-311.pyc
+¦   ¦           
+¦   +---models
+¦   ¦   ¦   response.py
+¦   ¦   ¦   scan.py
+¦   ¦   ¦   user.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           response.cpython-311.pyc
+¦   ¦           scan.cpython-311.pyc
+¦   ¦           user.cpython-311.pyc
+¦   ¦           
+¦   +---scripts
+¦   +---services
+¦   ¦   ¦   ai_model.py
+¦   ¦   ¦   explainer.py
+¦   ¦   ¦   inference_engine.py
+¦   ¦   ¦   model_loader.py
+¦   ¦   ¦   ocr_service.py
+¦   ¦   ¦   risk_level.py
+¦   ¦   ¦   text_detector.py
+¦   ¦   ¦   url_scanner.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           ai_model.cpython-311.pyc
+¦   ¦           explainer.cpython-311.pyc
+¦   ¦           inference_engine.cpython-311.pyc
+¦   ¦           model_loader.cpython-311.pyc
+¦   ¦           ocr_service.cpython-311.pyc
+¦   ¦           risk_level.cpython-311.pyc
+¦   ¦           text_detector.cpython-311.pyc
+¦   ¦           url_scanner.cpython-311.pyc
+¦   ¦           
+¦   +---utils
+¦   ¦   ¦   logger.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           logger.cpython-311.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           main.cpython-311.pyc
+¦           
++---ml
+    ¦   confusion_matrix.png
+    ¦   evaluate_model.py
+    ¦   roc_curve.png
+    ¦   train_model.py
+    ¦   
+    +---data
+    ¦       indian_upi_scam_dataset.csv
+    ¦       scam_dataset.csv
+    ¦       scam_dataset.csv.xlsx
+    ¦       
+    +---model
+        ¦   config.json
+        ¦   model.safetensors
+        ¦   tokenizer.json
+        ¦   tokenizer_config.json
+        ¦   training_args.bin
+        ¦   
+        +---checkpoint-108
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-144
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-2
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-36
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-4
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-6
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-72
+        ¦       config.json
+        ¦       model.safetensors
+        ¦       optimizer.pt
+        ¦       rng_state.pth
+        ¦       scheduler.pt
+        ¦       trainer_state.json
+        ¦       training_args.bin
+        ¦       
+        +---checkpoint-8
+                config.json
+                model.safetensors
+                optimizer.pt
+                rng_state.pth
+                scheduler.pt
+                trainer_state.json
+                training_args.bin
+                
